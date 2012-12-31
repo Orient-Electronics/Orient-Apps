@@ -377,7 +377,7 @@ public class ProductsListActivity extends Activity {
 		
 		HttpClient client = new DefaultHttpClient();
 		HttpGet httpGet = new HttpGet(
-				"http://www.orient.com.pk/api/?action=products&brand=orient&category=refrigerator");
+				"http://www.orient.com.pk/api/?action=products&brand=orient&category=refrigerator&spec:technology:profresh=yes");
 		try {
 			HttpResponse response = client.execute(httpGet);
 			StatusLine statusLine = response.getStatusLine();
