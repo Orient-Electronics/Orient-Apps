@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/food_item"
+    android:layout_width="180dp"
+    android:layout_height="255dp"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@drawable/bg_food_item" >
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:lines="1"
+        android:paddingLeft="9dp"
+        android:paddingTop="147dp"
+        android:text="TextView"
+        android:textColor="#0c4da2"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/days_ref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingLeft="39dp"
+        android:paddingTop="212dp"
+        android:text="x days"
+        android:textColor="#565350"
+        android:textSize="9dp" />
+
+    <TextView
+        android:id="@+id/days_profresh"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="114dp"
+        android:paddingTop="212dp"
+        android:text="x days"
+        android:textColor="#565350"
+        android:textSize="9dp" />
+
+    <ImageView
+        android:id="@+id/image_food_item"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:paddingTop="18dp" />
+
+    <Button
+        android:id="@+id/button_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="19dp"
+        android:layout_toLeftOf="@+id/image_food_item"
+        android:background="@drawable/star_unpressed" />
+
+</RelativeLayout>

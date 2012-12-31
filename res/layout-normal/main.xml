@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+        <LinearLayout android:layout_width="fill_parent"
+            		  android:layout_height="41dp"
+            		  android:orientation="vertical"
+            		  android:layout_gravity="left" 
+            		  android:background="@drawable/actionbar_background"
+             >
+              <ImageView
+                android:id="@+id/actionbar_title"
+                android:layout_width="148dp"
+                android:layout_height="28dp"
+                android:paddingTop="9dp"
+      			android:src="@drawable/orient" 
+      			android:layout_gravity="left"
+      			android:paddingRight="36dp"
+      			  />
+            
+        </LinearLayout>
+      
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:layout_gravity="center_horizontal"
+            
+            />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            />
+
+
+
+    </LinearLayout>
+
+</TabHost>

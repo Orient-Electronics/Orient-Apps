@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+   <!--  <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/labelWhatsHappening"
+        android:textSize="30sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/textStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_margin="5px"
+        android:background="@color/transparentBlue"
+        android:hint="@string/hintStatus"
+        android:maxLength="160"
+        android:minLines="4"
+        android:padding="5px"
+        android:textColor="#E6E6E6"
+        android:textColorHint="#E6E6E6" >
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon"
+        android:text="@string/labelUpdate" >
+    </Button> -->
+     <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

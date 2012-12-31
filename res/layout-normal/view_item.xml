@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_details"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        
+        android:paddingTop="12dp"
+        android:text="ITEM NAME"
+        android:textColor="#0c4da2"
+        android:textSize="42dp" />
+
+    <TextView
+        android:id="@+id/refri_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/item_name"
+        android:layout_below="@+id/item_name"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:paddingLeft="70dp"
+        android:paddingTop="40dp"
+        android:text="R Days"
+        android:textColor="#565350"
+        android:textSize="15dp" />
+
+     <TextView
+        android:id="@+id/pro_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/refri_days"
+        android:paddingLeft="75dp"
+        android:paddingTop="40dp"
+        android:layout_toRightOf="@+id/refri_days"
+        android:gravity="center"
+        android:text="P Days"
+        android:textColor="#565350"
+        android:textSize="15dp" />
+
+    <ScrollView
+        android:id="@+id/scroll_details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/refri_days"
+        android:layout_marginTop="20dp"
+        android:isScrollContainer="true"
+        android:scrollbars="none" >
+        
+        <LinearLayout
+            android:id="@+id/vitamins_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            
+             <TextView
+                android:id="@+id/category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@+strings/text"
+                android:textColor="#0c4da2" />
+            
+            <TextView
+                android:id="@+id/category_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@+strings/text"
+                android:textColor="#565350" />
+            
+            </LinearLayout>
+    </ScrollView>
+     
+</RelativeLayout>

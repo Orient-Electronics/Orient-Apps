@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="hello">Hello World, OrientProFreshActivity!</string>
+    <string name="app_name">Orient Profresh</string>
+    <string name="no_categories">Categories</string>
+    <string name="no_foods">No foods found</string>
+    <string name="search_hint">Search</string>
+    <string name="vitamina">This is test description</string>
+    <string name="vitaminb1">This is test description</string>
+    <string name="vitaminb2">This is test description</string>
+    <string name="biotinb6">This is test description</string>
+    <string name="vitaminc">This is test description</string>
+    <string name="folicacid">This is test description</string>
+    <string name="no_item">No Favourites Selected</string>
+    <string name="text">TextView</string>
+    <string name="labelWhatsHappening">What\'s Happening?</string>
+    <string name="hintStatus">Enter 140 characters status update</string>
+    <string name="labelUpdate">update</string>
+
+</resources>
